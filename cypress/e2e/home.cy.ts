@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('home spec', () => {
   it('passes', () => {
     cy.visit('/')

@@ -1,7 +1,6 @@
 import { FormContainer, MinutesAmountInput, TaskInput } from './styles'
 import { useContext } from 'react'
 import { CyclesContext } from '../../../../contexts/CyclesContext'
-import { dataForm } from '../..'
 
 interface NewCycleFormProps {
   register: (name: any, type?: any) => any
